@@ -30,7 +30,7 @@ public class Smoke2 {
 
 	@AfterTest
 	public void tearDown() {
-		driver.quit();
+		driver.close();
 	}
 
 }
