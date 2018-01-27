@@ -31,6 +31,7 @@ public class Smoke2 {
 	@AfterTest
 	public void tearDown() {
 		driver.close();
+		System.out.println("driver closed");
 	}
 
 }
