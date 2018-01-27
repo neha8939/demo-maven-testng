@@ -15,5 +15,12 @@
 			<class name="testcases.Smoke2" />
 		</classes>
 	</test>
+	
+	<test name="headless-smoke">
+		<parameter name="browser" value="headless" />
+		<classes>
+			<class name="testcases.Smoke2" />
+		</classes>
+	</test>
 </suite>
 

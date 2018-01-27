@@ -21,7 +21,7 @@ public class WebdriverUtil {
 			return new InternetExplorerDriver();
 		case "safari":
 			return new SafariDriver();
-		case "htmlunit":
+		case "headless":
 			return new HtmlUnitDriver();
 		default:
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//chromedriver.exe");
